@@ -1,4 +1,4 @@
-`use strict`;
+'use strict';
 
 const TASK_COUNT = 3;
 
@@ -123,7 +123,7 @@ const createBoardTaskListTemplate = () => {
   return (
     `<div class="board__tasks"></div>`
   );
-}
+};
 
 const createTaskEditTemplate = () => {
   return (
@@ -399,6 +399,6 @@ render(boardTaskList, createTaskEditTemplate());
 
 for (let i = 0; i < TASK_COUNT; i++) {
   render(boardTaskList, createTaskTemplate());
-};
+}
 
 render(mainBoard, createLoadMoreButtonTemplate());
