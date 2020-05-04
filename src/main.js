@@ -20,7 +20,7 @@ const renderTask = (taskListElement, task) => {
     taskListElement.replaceChild(taskEditComponent.getElement(), taskComponent.getElement());
   };
 
-  const replaceEditToTask = (evt) => {
+  const replaceEditToTask = () => {
     taskListElement.replaceChild(taskComponent.getElement(), taskEditComponent.getElement());
   };
 
